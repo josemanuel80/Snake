@@ -3,6 +3,7 @@ const width = 20;
 const height = 12;
 let score = 0;
 let cont = document.getElementById('h4');
+
 const grid = document.querySelector('.grid');
 const cells = [];
 for (i = 0; i < 240; i++) {

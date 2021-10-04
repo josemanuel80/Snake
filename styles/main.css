@@ -72,3 +72,21 @@ body {
 
   font-weight: 700;
 }
+h5 {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  h5 {
+    display: inline;
+  }
+  .grid {
+    display: none;
+  }
+
+  .picture {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+  }
+}

@@ -62,3 +62,13 @@ body {
   height: 30px;
   width: 30px;
 }
+.divs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.div2 {
+  text-align: end;
+  margin-top: 2.5rem;
+
+  font-weight: 700;
+}
